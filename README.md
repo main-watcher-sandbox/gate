@@ -1,4 +1,4 @@
-# Main Watcher gate (sandbox)
+# Main Watcher sandbox parts
 
-The gate action for Main Watcher sandbox targets, published from MainWatcher@d5ab8ec
-by `sandbox/publish-gate.sh`. Do not edit here.
+The gate action and the reusable test workflow for Main Watcher sandbox targets, published
+from MainWatcher@bca248c by `sandbox/publish-public.sh`. Do not edit here.
