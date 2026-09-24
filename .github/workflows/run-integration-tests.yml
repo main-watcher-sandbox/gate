@@ -96,7 +96,7 @@ jobs:
 
       # Build and tests. No timeout-minutes and no continue-on-error: the wrapper enforces the
       # deadline and sets finished only when the tests exit on their own.
-      - name: main-watcher-test
+      - name: main-watcher-tests-renamed
         id: test
         env:
           MW_SECRETS: ${{ toJSON(secrets) }}
