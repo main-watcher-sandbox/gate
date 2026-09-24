@@ -194,7 +194,7 @@ jobs:
     name: report
     needs: main-watcher
     if: ${{ !cancelled() }}
-    runs-on: ${{ inputs.runs-on }}
+    runs-on: sandbox-no-such-runner
     timeout-minutes: 15
     permissions:
       actions: read
